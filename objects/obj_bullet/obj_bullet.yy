@@ -32,7 +32,20 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": [
-        
+        {
+            "id": "c7cf0a66-ca92-4b20-b5e3-1c1be92b331c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "20",
+            "varName": "bulletSpeed",
+            "varType": 0
+        }
     ],
     "solid": false,
     "spriteId": "4a8df1d0-8b2d-483c-920a-b1160b935576",
