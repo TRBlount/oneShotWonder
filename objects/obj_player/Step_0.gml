@@ -12,10 +12,10 @@ if (keyboard_check(ord("D"))){
     x += playerSpeed; 
 }
 
-if (keyboard_check(ord("S"))){ 
+if (keyboard_check(ord("W"))){ 
     y -= playerSpeed; 
 }
 
-if (keyboard_check(ord("W"))){ 
+if (keyboard_check(ord("S"))){ 
     y += playerSpeed; 
 }
