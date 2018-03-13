@@ -31,11 +31,27 @@
     },
     "resources": [
         {
+            "Key": "007dd969-45ac-43cb-9324-541d68e92598",
+            "Value": {
+                "id": "e2798232-b55a-4dc8-9611-ae0c1fc40c21",
+                "resourcePath": "sprites\\wallSprite\\wallSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0238bff2-e6b5-4908-a0b0-7165e97befcf",
             "Value": {
                 "id": "ac350cbb-eaec-4fd4-a3fe-1ef3fb82b289",
                 "resourcePath": "views\\0238bff2-e6b5-4908-a0b0-7165e97befcf.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "0a2726b8-3798-47d5-a8a8-511be7872edc",
+            "Value": {
+                "id": "da848ad9-7afc-4916-a30f-c97afeacdaca",
+                "resourcePath": "objects\\obj_wall\\obj_wall.yy",
+                "resourceType": "GMObject"
             }
         },
         {
