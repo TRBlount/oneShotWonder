@@ -25,4 +25,5 @@ if (mouse_check_button(mb_left)) {
 	with(playerShot){
 		direction = other.image_angle;
 	}
+	bBullet = false;
 }
