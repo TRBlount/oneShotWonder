@@ -20,10 +20,12 @@ if (keyboard_check(ord("S"))){
     y += playerSpeed; 
 }
 
-if (mouse_check_button(mb_left)) {
+if (mouse_check_button(mb_left) && bBullet == true) {
 	playerShot =  instance_create_layer(x, y, "Projectiles", obj_bullet);
 	with(playerShot){
 		direction = other.image_angle;
 	}
 	bBullet = false;
 }
+
+
