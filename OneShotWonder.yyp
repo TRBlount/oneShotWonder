@@ -50,7 +50,7 @@
             "Key": "0ffb262e-ee96-4f4a-9be9-b60f099f0cb9",
             "Value": {
                 "id": "ea2e4ea2-06c5-439a-918f-21589d934054",
-                "resourcePath": "shaders\\shader0\\shader0.yy",
+                "resourcePath": "shaders\\shd_main\\shd_main.yy",
                 "resourceType": "GMShader"
             }
         },
@@ -156,6 +156,14 @@
                 "id": "2ed0d59d-816d-4af5-b1d1-67281c217c19",
                 "resourcePath": "views\\82f45d3f-7994-45c8-a8ab-790d8265ac81.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "87b34e52-210a-4b0c-a21f-f40da2b7e402",
+            "Value": {
+                "id": "425e4b3a-4da0-4310-947b-9ec7c7d083b0",
+                "resourcePath": "sprites\\spr_shotgun\\spr_shotgun.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

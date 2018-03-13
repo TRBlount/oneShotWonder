@@ -3,10 +3,11 @@
 //
 varying vec2 v_vTexcoord;
 varying vec4 v_vColour;
-const float blurSize = 1.0/512.0;
+const float blurSize = 8.0/512.0;
 uniform float intensity;
 
-vec4 do_bloom(){
+void main()
+{	
 	vec4 sum = vec4(0);
 	int j;
 	int i;
@@ -33,10 +34,5 @@ vec4 do_bloom(){
 	sum += texture2D(gm_BaseTexture, vec2(v_vTexcoord.x, v_vTexcoord.y + 3.0*blurSize)) * 0.09;
 	sum += texture2D(gm_BaseTexture, vec2(v_vTexcoord.x, v_vTexcoord.y + 4.0*blurSize)) * 0.05;
 	
-	return sum;
-}
-
-void main()
-{
-    gl_FragColor = do_bloom() * intensity + texture2D( gm_BaseTexture, v_vTexcoord );
+    gl_FragColor = (sum * intensity) + texture2D( gm_BaseTexture, v_vTexcoord );
 }
