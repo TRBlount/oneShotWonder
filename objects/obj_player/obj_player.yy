@@ -128,6 +128,34 @@
             "value": "normal",
             "varName": "activeGun",
             "varType": 2
+        },
+        {
+            "id": "44a2f060-7eb6-4002-8d72-1c7e6aed2014",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "10",
+            "varName": "gunCooldown",
+            "varType": 1
+        },
+        {
+            "id": "5f684cb5-8d08-4b3b-9d09-7c93cda2a6fc",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "aGunInvSlot",
+            "varType": 0
         }
     ],
     "solid": false,

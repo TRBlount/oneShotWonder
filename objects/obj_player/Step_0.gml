@@ -20,35 +20,51 @@ if (keyboard_check(ord("S")) && !place_meeting(x,y+5,obj_wall)){
     y += playerSpeed; 
 }
 
-if (mouse_check_button(mb_left) && bBullet == true) {
-	if(activeGun == "normal"){
+if (keyboard_check(ord("1"))){ 
+    aGunInvSlot = 0;
+	activeGun = "normal";
+}
+if (keyboard_check(ord("2"))){
+	if(inventory[1] != ""){
+	    aGunInvSlot = 1;
+		activeGun = inventory[1];
+	}
+}
+if (keyboard_check(ord("3"))){
+	if(inventory[2] != ""){
+	    aGunInvSlot = 2;
+		activeGun = inventory[2];
+	}
+}
+if (keyboard_check(ord("4"))){
+	if(inventory[3] != ""){
+	    aGunInvSlot = 3;
+		activeGun = inventory[3];
+	}
+}
+
+
+if (mouse_check_button(mb_left) && gunCooldown == 10) {
+	if(activeGun == "normal" && bBullet){
 		playerShot =  instance_create_layer(x, y, "Projectiles", obj_bullet);
 		with(playerShot){
 			direction = other.image_angle;
 		}
 		bBullet = false;
+		gunCooldown = 0;
 	} else if (activeGun == "shotgun"){
-		playerShot1 =  instance_create_layer(x, y, "Projectiles", obj_bullet);
-		with(playerShot1){
-			direction = other.image_angle + 15;
-		}
-		playerShot2 =  instance_create_layer(x, y, "Projectiles", obj_bullet);
-		with(playerShot2){
-			direction = other.image_angle + 7.5;
-		}
-		playerShot3 =  instance_create_layer(x, y, "Projectiles", obj_bullet);
-		with(playerShot3){
-			direction = other.image_angle;
-		}
-		playerShot4 =  instance_create_layer(x, y, "Projectiles", obj_bullet);
-		with(playerShot4){
-			direction = other.image_angle - 7.5;
-		}
-		playerShot5 =  instance_create_layer(x, y, "Projectiles", obj_bullet);
-		with(playerShot5){
-			direction = other.image_angle - 15;
+		for(i = -4; i < 5; i+=1){
+			shotgunShot =  instance_create_layer(x, y, "Projectiles", obj_bullet);
+			shotgunShot.direction = other.image_angle - (3*i);
 		}
 		activeGun = "normal";
+		inventory[aGunInvSlot] = "";
+		aGunInvSlot = 0;
+		gunCooldown = 0;
 	}
+}
+
+if(gunCooldown != 10){
+	gunCooldown+=1;	
 }
 

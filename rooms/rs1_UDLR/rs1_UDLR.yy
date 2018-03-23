@@ -1,6 +1,6 @@
 
 {
-    "name": "room0",
+    "name": "rs1_UDLR",
     "id": "0d4f7498-3b4a-4eda-ab0e-9dbda725857f",
     "creationCodeFile": "",
     "inheritCode": false,
@@ -13,7 +13,8 @@
         "73fc3dc6-3516-43d2-bb1e-4461c9a07c1f",
         "a4cd53f0-200f-4965-82a2-6b85228be1c3",
         "9f51fbe9-951a-4d3f-8df3-34268c91ffba",
-        "32476087-2afe-4050-b791-f2998cf91563"
+        "32476087-2afe-4050-b791-f2998cf91563",
+        "ffb1ed85-a96d-4ad9-a4d9-7ae4b17142ba"
     ],
     "IsDnD": false,
     "layers": [
@@ -45,7 +46,7 @@
         },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Instances",
+            "name": "PlayersAndEnemies",
             "id": "e42cd139-0a5e-4901-9a83-9d1d5a114719",
             "depth": 100,
             "grid_x": 32,
@@ -87,7 +88,33 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_2543413","id": "9f51fbe9-951a-4d3f-8df3-34268c91ffba","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_2543413","objId": "a080b705-74a1-448e-af6b-6859ae121b66","properties": null,"rotation": 0,"scaleX": 4,"scaleY": 3.5,"mvc": "1.0","x": 960,"y": 640}
+{"name": "inst_2543413","id": "9f51fbe9-951a-4d3f-8df3-34268c91ffba","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_2543413","objId": "a080b705-74a1-448e-af6b-6859ae121b66","properties": null,"rotation": 0,"scaleX": 4,"scaleY": 3.5,"mvc": "1.0","x": 960,"y": 704}
+            ],
+            "layers": [
+
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": false,
+            "modelName": "GMRInstanceLayer",
+            "mvc": "1.0",
+            "userdefined_depth": false,
+            "visible": true
+        },
+        {
+            "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
+            "name": "WallsAndDoors",
+            "id": "90fc33bd-2823-4fd5-b672-19b676010721",
+            "depth": 300,
+            "grid_x": 32,
+            "grid_y": 32,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": true,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "instances": [
+{"name": "inst_2414F821","id": "ffb1ed85-a96d-4ad9-a4d9-7ae4b17142ba","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_2414F821","objId": "0a2726b8-3798-47d5-a8a8-511be7872edc","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": -32,"y": 608}
             ],
             "layers": [
 
@@ -106,13 +133,13 @@
             "animationFPS": 15,
             "animationSpeedType": "0",
             "colour": { "Value": 4294967295 },
-            "depth": 300,
+            "depth": 400,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
             "hierarchyVisible": true,
             "hspeed": 0,
-            "htiled": false,
+            "htiled": true,
             "inheritLayerDepth": false,
             "inheritLayerSettings": false,
             "inheritSubLayers": false,
@@ -125,12 +152,12 @@
             "modelName": "GMRBackgroundLayer",
             "mvc": "1.0",
             "spriteId": "e6bb6f1b-62e4-4716-88bb-bd4fb65d131d",
-            "stretch": true,
+            "stretch": false,
             "userdefined_animFPS": false,
             "userdefined_depth": false,
             "visible": true,
             "vspeed": 0,
-            "vtiled": false,
+            "vtiled": true,
             "x": 0,
             "y": 0
         }

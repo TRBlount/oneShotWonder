@@ -74,7 +74,7 @@
             "Key": "0d4f7498-3b4a-4eda-ab0e-9dbda725857f",
             "Value": {
                 "id": "5aa11c87-0c91-4b87-9e8a-704f139c2640",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\rs1_UDLR\\rs1_UDLR.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -175,14 +175,6 @@
             }
         },
         {
-            "Key": "5a7a77a0-97f8-45fe-abaa-c5e15fbaa322",
-            "Value": {
-                "id": "7ccd4b6b-24d1-4c54-86a6-0fd9fc5d5f1f",
-                "resourcePath": "scripts\\shoot\\shoot.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "6bbb077f-76ff-4fce-9512-671c669ac91d",
             "Value": {
                 "id": "8c723d7e-a450-458c-8ba0-f66d93ee62fa",
@@ -252,6 +244,14 @@
                 "id": "02b1ed47-721a-4237-89b6-76028de13626",
                 "resourcePath": "sprites\\playerSprite\\playerSprite.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "aec20546-c52d-40fc-989e-58ca286c959f",
+            "Value": {
+                "id": "1589b493-5bc9-4a7b-a0f0-f2ffdf478256",
+                "resourcePath": "rooms\\rs1_R\\rs1_R.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -344,7 +344,7 @@
         }
     ],
     "script_order": [
-        "5a7a77a0-97f8-45fe-abaa-c5e15fbaa322"
+        
     ],
     "tutorial": ""
 }
