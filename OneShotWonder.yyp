@@ -175,6 +175,22 @@
             }
         },
         {
+            "Key": "5971b3c3-825e-4dd6-8ab2-6ab3fc3b33d4",
+            "Value": {
+                "id": "8b718db0-d6b0-4680-8793-015741be07b3",
+                "resourcePath": "sprites\\spr_rpg\\spr_rpg.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5a7a77a0-97f8-45fe-abaa-c5e15fbaa322",
+            "Value": {
+                "id": "7ccd4b6b-24d1-4c54-86a6-0fd9fc5d5f1f",
+                "resourcePath": "scripts\\shoot\\shoot.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "6bbb077f-76ff-4fce-9512-671c669ac91d",
             "Value": {
                 "id": "8c723d7e-a450-458c-8ba0-f66d93ee62fa",
