@@ -33,6 +33,26 @@
             "enumb": 77,
             "eventtype": 8,
             "m_owner": "7948b85c-044f-461d-a0f3-aab7ee60b697"
+        },
+        {
+            "id": "46e41d48-7128-410f-9160-d9ba35a55d6e",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "0a669985-cd21-4f32-9938-ec413df67101",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "7948b85c-044f-461d-a0f3-aab7ee60b697"
+        },
+        {
+            "id": "95a93049-53a4-48b1-a73e-7996c4ca6901",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "c227ac8d-4e48-45e5-8b77-52ea723caecd",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "7948b85c-044f-461d-a0f3-aab7ee60b697"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -81,9 +101,36 @@
     ],
     "physicsStartAwake": true,
     "properties": [
-        
+        {
+            "id": "dfaa5778-383b-419f-8561-81191d2f58be",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "false",
+            "varName": "bBullet",
+            "varType": 3
+        },
+        {
+            "id": "e232be83-cd07-48c5-a0ab-ab2bd9fb840a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "normal",
+            "varName": "activeGun",
+            "varType": 2
+        }
     ],
     "solid": false,
-    "spriteId": "ad7bf1c1-d708-49cd-8e14-0a3aad3f1a59",
+    "spriteId": "0a8dc424-d6a5-425a-9d1c-edf06f4dec7b",
     "visible": true
 }
