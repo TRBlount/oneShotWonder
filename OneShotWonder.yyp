@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "8ecd0c02-c8da-484b-b17d-8068f3d67c4e",
+            "Value": {
+                "id": "d4565296-4754-41a2-8c4e-224ee1984cd0",
+                "resourcePath": "sprites\\spr_sword\\spr_sword.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "92211927-5c44-4334-a86e-cfd76601f3a2",
             "Value": {
                 "id": "2a1bfa1b-7c94-41ef-ad99-29026583e194",
@@ -252,6 +260,14 @@
                 "id": "fd99fde3-7ff8-4f43-ac89-0ff9d31d0942",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "aa695a96-4090-40b4-b1f5-d32061f2674b",
+            "Value": {
+                "id": "3b1b88e2-92e3-47be-a042-edbe1aace8cc",
+                "resourcePath": "sprites\\spr_enemyshield\\spr_enemyshield.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
