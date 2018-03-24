@@ -207,6 +207,22 @@
             }
         },
         {
+            "Key": "80975474-8b57-441b-810a-94ca38b96b95",
+            "Value": {
+                "id": "dd40140f-657f-4f4d-be1f-2cf8cbf89aad",
+                "resourcePath": "objects\\obj_shieldEnemy\\obj_shieldEnemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "824f70fc-9382-4981-bc60-88104dc78239",
+            "Value": {
+                "id": "40d72b48-dfb8-4e11-8ff2-8f8996771de1",
+                "resourcePath": "objects\\obj_Shield\\obj_Shield.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "82f45d3f-7994-45c8-a8ab-790d8265ac81",
             "Value": {
                 "id": "2ed0d59d-816d-4af5-b1d1-67281c217c19",
