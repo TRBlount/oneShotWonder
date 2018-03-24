@@ -175,6 +175,22 @@
             }
         },
         {
+            "Key": "5971b3c3-825e-4dd6-8ab2-6ab3fc3b33d4",
+            "Value": {
+                "id": "8b718db0-d6b0-4680-8793-015741be07b3",
+                "resourcePath": "sprites\\spr_rpg\\spr_rpg.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5a7a77a0-97f8-45fe-abaa-c5e15fbaa322",
+            "Value": {
+                "id": "7ccd4b6b-24d1-4c54-86a6-0fd9fc5d5f1f",
+                "resourcePath": "scripts\\shoot\\shoot.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "6bbb077f-76ff-4fce-9512-671c669ac91d",
             "Value": {
                 "id": "8c723d7e-a450-458c-8ba0-f66d93ee62fa",
@@ -191,6 +207,22 @@
             }
         },
         {
+            "Key": "80975474-8b57-441b-810a-94ca38b96b95",
+            "Value": {
+                "id": "dd40140f-657f-4f4d-be1f-2cf8cbf89aad",
+                "resourcePath": "objects\\obj_shieldEnemy\\obj_shieldEnemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "824f70fc-9382-4981-bc60-88104dc78239",
+            "Value": {
+                "id": "40d72b48-dfb8-4e11-8ff2-8f8996771de1",
+                "resourcePath": "objects\\obj_Shield\\obj_Shield.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "82f45d3f-7994-45c8-a8ab-790d8265ac81",
             "Value": {
                 "id": "2ed0d59d-816d-4af5-b1d1-67281c217c19",
@@ -203,6 +235,14 @@
             "Value": {
                 "id": "425e4b3a-4da0-4310-947b-9ec7c7d083b0",
                 "resourcePath": "sprites\\spr_shotgun\\spr_shotgun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8ecd0c02-c8da-484b-b17d-8068f3d67c4e",
+            "Value": {
+                "id": "d4565296-4754-41a2-8c4e-224ee1984cd0",
+                "resourcePath": "sprites\\spr_sword\\spr_sword.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -236,6 +276,14 @@
                 "id": "fd99fde3-7ff8-4f43-ac89-0ff9d31d0942",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "aa695a96-4090-40b4-b1f5-d32061f2674b",
+            "Value": {
+                "id": "3b1b88e2-92e3-47be-a042-edbe1aace8cc",
+                "resourcePath": "sprites\\spr_enemyshield\\spr_enemyshield.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
