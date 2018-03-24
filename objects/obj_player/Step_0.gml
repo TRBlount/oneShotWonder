@@ -62,6 +62,7 @@ if (mouse_check_button(mb_left) && gunCooldown == 10) {
 		aGunInvSlot = 0;
 		gunCooldown = 0;
 	}
+	totalShots +=1;
 }
 
 if(gunCooldown != 10){

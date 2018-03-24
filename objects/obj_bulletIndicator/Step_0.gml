@@ -3,9 +3,9 @@
 
 
 if(obj_player.activeGun == "shotgun"){
-	sprite_index = shotShellSprite;
+	sprite_index = spr_shotShell;
 } else if (obj_player.bBullet) {
-	sprite_index = haveBulletSprite;	
+	sprite_index = spr_haveBullet;	
 } else {
-	sprite_index = noBulletSprite;		
+	sprite_index = spr_noBullet;		
 }

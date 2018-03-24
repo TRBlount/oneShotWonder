@@ -2,6 +2,9 @@
 // You can write your code in this editor
 
 bBullet = true;
+playerScore = 0;
+totalShots = 0;
+hitShots = 0;
 
 gunShotTypes = ds_map_create();
 
