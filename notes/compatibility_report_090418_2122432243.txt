@@ -1,0 +1,73 @@
+Converting GML script: ${project_dir}\scripts\RoomGen_Init\RoomGen_Init.gml
+Converted description /// @description  RoomGen_Init(num_of_rooms, double_back, [debug]);/// @param num_of_rooms
+/// @param  double_back
+/// @param  [debug]
+
+Converting GML script: ${project_dir}\scripts\RoomGen_CreateAllRooms\RoomGen_CreateAllRooms.gml
+Converted description /// @description  RoomGen_CreateAllRooms(constrained)/// @param constrained
+
+Converting GML script: ${project_dir}\scripts\RoomGen_CreateRoom\RoomGen_CreateRoom.gml
+Converted description /// @description  RoomGen_CreateRoom();
+
+Converting GML script: ${project_dir}\scripts\RoomGen_End\RoomGen_End.gml
+Converted description /// @description  RoomGen_End();
+
+Converting GML script: ${project_dir}\scripts\RoomGen_CleanUp\RoomGen_CleanUp.gml
+Converted description /// @description  RoomGen_CleanUp([optional - restart]);/// @param [optional - restart]
+
+Converting GML script: ${project_dir}\scripts\RoomGen_Draw_Debug\RoomGen_Draw_Debug.gml
+Converted description /// @description  RoomGen_Draw_Debug(res, nums)/// @param res
+/// @param  nums
+
+Converting GML script: ${project_dir}\scripts\RoomGen_Init_Constrained\RoomGen_Init_Constrained.gml
+Converted description /// @description  RoomGen_Init_Constrained(num_of_rooms, grid_w, grid_h, [debug]);/// @param num_of_rooms
+/// @param  grid_w
+/// @param  grid_h
+/// @param  [debug]
+
+Converting GML script: ${project_dir}\scripts\RoomGen_CreateRoom_Constrained\RoomGen_CreateRoom_Constrained.gml
+Converted description /// @description  RoomGen_CreateRoom_Constrained()
+
+Converting GML script: ${project_dir}\scripts\RoomGen_GetRoomNumber\RoomGen_GetRoomNumber.gml
+Converted description /// @description  RoomGen_GetRoomNumber(x_cell, y_cell);/// @param x_cell
+/// @param  y_cell
+
+Converting GML script: ${project_dir}\scripts\RoomGen_GetRoomMap\RoomGen_GetRoomMap.gml
+Converted description /// @description  RoomGen_GetRoomMap(room_num);/// @param room_num
+
+Converting GML script: ${project_dir}\scripts\RoomGen_GetRoom_x\RoomGen_GetRoom_x.gml
+Converted description /// @description  RoomGen_GetRoom_x(room_num)/// @param room_num
+
+Converting GML script: ${project_dir}\scripts\RoomGen_GetRoom_y\RoomGen_GetRoom_y.gml
+Converted description /// @description  RoomGen_GetRoom_y(room_num)/// @param room_num
+
+Converting GML script: ${project_dir}\scripts\RoomGen_SetRoomMap\RoomGen_SetRoomMap.gml
+Converted description /// @description  RoomGen_SetRoomMap(room_num, map_key, map_value);/// @param room_num
+/// @param  map_key
+/// @param  map_value
+
+Converting GML script: ${project_dir}\scripts\RoomGen_ClearMapEntry\RoomGen_ClearMapEntry.gml
+Converted description /// @description  RoomGen_ClearMapEntry(room_num, map_key);/// @param room_num
+/// @param  map_key
+
+Converting GML script: ${project_dir}\scripts\RoomGen_End_DEMO\RoomGen_End_DEMO.gml
+Converted description /// @description  RoomGen_End_DEMO();
+
+Converting GML script: ${project_dir}\scripts\RoomGen_CleanUp_DEMO\RoomGen_CleanUp_DEMO.gml
+Converted description /// @description  RoomGen_CleanUp_DEMO([optional - restart]);/// @param [optional - restart]
+
+Converting GML script: ${project_dir}\objects\obj_RoomGen_DEMO_Control\Create_0.gml
+Converted builtin - line 159: background_blend[1] = map[? "background"] -> __background_set( e__BG.Blend, 1, map[? "background"] )
+
+Added compatibility script 'background/__background_set.gml'
+Added compatibility script 'background/__background_set_internal.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'tile/tile_add.gml'
+Added compatibility script 'tile/tile_set_blend.gml'
+Added compatibility script 'background/__init_background.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script 'background/__background_get_element.gml'
+Added compatibility script 'background/__background_get_internal.gml'
+Added compatibility script 'background/__background_set_element.gml'
+Added compatibility script '__global_object_depths.gml'

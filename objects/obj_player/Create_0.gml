@@ -16,3 +16,8 @@ inventory[3] = "";
 global.player = self;
 
 application_surface_draw_enable(0);
+
+mv = 6; // maximal velocity
+acc = 0.5; // acceleration
+nd = 0.5; // normal deacceleration
+sd = 1.0; // skid deacceleration
