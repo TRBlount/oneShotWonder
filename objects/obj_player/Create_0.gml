@@ -6,6 +6,9 @@ playerScore = 0;
 totalShots = 0;
 hitShots = 0;
 
+hsp = 0;
+vsp = 0;
+
 gunShotTypes = ds_map_create();
 
 inventory[0] = "normal";

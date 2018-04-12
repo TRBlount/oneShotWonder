@@ -8,51 +8,55 @@ playerSpeed = 5;
 var h = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 var v = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
-var spd = sqrt(hspeed * hspeed + vspeed * vspeed);
+var spd = sqrt(hsp * hsp + vsp * vsp);
 if h == 0 && v == 0 {
     // deaccelerate when not moving
     if spd <= nd {
-        hspeed = 0;
-        vspeed = 0;
+        hsp = 0;
+        vsp = 0;
     } else {
-        hspeed -= hspeed / spd * nd;
-        vspeed -= vspeed / spd * nd;
+        hsp -= hsp / spd * nd;
+        vsp -= vsp / spd * nd;
     }
 } else {
-    if hspeed * h + vspeed * v < 0 {
+    if hsp * h + vsp * v < 0 {
         // skid
         if spd <= sd {
-            hspeed = 0;
-            vspeed = 0;
+            hsp = 0;
+            vsp = 0;
         } else {
-            hspeed -= hspeed / spd * sd;
-            vspeed -= vspeed / spd * sd;
+            hsp -= hsp / spd * sd;
+            vsp -= vsp / spd * sd;
         }
     } else {
         // accelerate
-        hspeed += h * acc;
-        vspeed += v * acc;
-        spd = sqrt(hspeed * hspeed + vspeed * vspeed);
+        hsp += h * acc;
+        vsp += v * acc;
+        spd = sqrt(hsp * hsp + vsp * vsp);
         if spd > mv {
-            hspeed = hspeed / spd * mv;
-            vspeed = vspeed / spd * mv;
+            hsp = hsp / spd * mv;
+            vsp = vsp / spd * mv;
         }
     }
 }
-if (hspeed > 0 && place_meeting(x+2,y,obj_wall)){ 
-	hspeed = 0;
+
+
+if (place_meeting(x+hsp,y,obj_wall)){
+	while(!place_meeting(x+sign(hsp),y,obj_wall)){
+		x += sign(hsp);
+	}
+	hsp = 0;
+} else {
+	x += hsp;
 }
 
-if (hspeed < 0 && place_meeting(x-2,y,obj_wall)){ 
-    hspeed = 0;
-}
-
-if (vspeed < 0 && place_meeting(x,y-2,obj_wall)){ 
-    vspeed = 0;
-}
-
-if (vspeed > 0 && place_meeting(x,y+2,obj_wall)){ 
-    vspeed = 0;
+if (place_meeting(x,y+vsp,obj_wall)){
+	while(!place_meeting(x,y+sign(vsp),obj_wall)){
+		y += sign(vsp);
+	}
+	vsp = 0;
+} else {
+	y += vsp;
 }
 
 if (keyboard_check(ord("1"))){ 
